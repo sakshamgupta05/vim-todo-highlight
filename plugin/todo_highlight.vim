@@ -26,8 +26,8 @@ let s:todo_highlight_config_default = {
 
 " creates annotation group and highlight it according to the config
 function! s:CreateAnnotationGroup(annotation, config)
-  " set group name -> myANNOTATION
-  let l:group_name = 'my' . a:annotation
+  " set group name -> my_annotation
+  let l:group_name = 'my_' . tolower(a:annotation)
 
   " make group for annotation where its pattern matches and is inside comment
   execute 'augroup ' . l:group_name
