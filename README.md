@@ -3,31 +3,37 @@ a vim plugin to highlight todos and fixmes
 
 ## Installation
 #### [vim-plug](https://github.com/junegunn/vim-plug)
-1. Add the following configuration to your `.vimrc`.
+Add the following configuration to your `.vimrc`.
 ```vim
 Plug 'sakshamgupta05/vim-todo-highlight'
 ```
-2. Install with `:PlugInstall`.
+Install with `:PlugInstall`.
 
 #### [Pathogen](https://github.com/tpope/vim-pathogen)
-1. Install with the following command.
+Install with the following command.
 ```sh
 git clone https://github.com/sakshamgupta05/vim-todo-highlight ~/.vim/bundle/vim-todo-highlight
 ```
 
 #### [Vundle](https://github.com/VundleVim/Vundle.vim)
-1. Add the following configuration to your `.vimrc`.
+Add the following configuration to your `.vimrc`.
 ```vim
 Plugin 'sakshamgupta05/vim-todo-highlight'
 ```
-2. Install with `:PluginInstall`.
+Install with `:PluginInstall`.
 
 #### [NeoBundle](https://github.com/Shougo/neobundle.vim)
-1. Add the following configuration to your `.vimrc`.
+Add the following configuration to your `.vimrc`.
 ```vim
 NeoBundle 'sakshamgupta05/vim-todo-highlight'
 ```
-2. Install with `:NeoBundleInstall`.
+Install with `:NeoBundleInstall`.
+
+## Introduction
+This plugin helps you to remember the `TODO:` and `FIXME:` you have written in your code by highlighting them inside vim.
+
+### Usage
+Just type `TODO:` or `FIXME:` inside a comment and this plugin will highlight it for you.
 
 ## Configuration
 ### Default configuration
