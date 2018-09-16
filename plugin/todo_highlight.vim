@@ -33,7 +33,7 @@ function! s:CreateAnnotationGroup(annotation, config)
   execute 'augroup ' . l:group_name
     autocmd!
     execute 'autocmd Syntax * syntax match ' . l:group_name .
-          \ ' /\v\_.<' . a:annotation . ':/hs=s+1 containedin=.*Comment'
+          \ ' /\v\_.<' . a:annotation . ':/hs=s+1 containedin=.*Comment.*'
   augroup END
 
   " highlight the group according to the config
