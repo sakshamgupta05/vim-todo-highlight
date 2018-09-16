@@ -1,6 +1,12 @@
-" vim-todo-highlight - a Vim/Neovim plugin to highlight todos and fixmes
-" Maintainer:   Saksham Gupta <https://github.com/sakshamgupta05/vim-todo-highlight>
-" Version:      1.0
+" File: todo_highlight.vim
+" Author: Saksham Gupta <sakshamgupta05@gmail.com>
+" Description: a Vim/Neovim plugin to highlight todos and fixmes
+
+" make sure file is loaded only once
+if exists("g:loaded_todo_highlight")
+  finish
+endif
+let g:loaded_todo_highlight = 1
 
 " highlight todo and fixme in comments
 hi myTodo ctermfg=white ctermbg=214 guifg=white guibg=#ffbd2a
