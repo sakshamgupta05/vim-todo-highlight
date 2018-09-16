@@ -31,10 +31,10 @@ NeoBundle 'sakshamgupta05/vim-todo-highlight'
 
 ## Configuration
 ### Default configuration
-`gui`: HEX colors for terminals that support *24bit true colour*  
-`cterm`: 256 colors for terminals that support only *256 colour palette*  
-`fg_color`: text color  
-`bg_color`: background color
+`gui` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: HEX colors for terminals that support *24bit true colour*  
+`cterm` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256 colors for terminals that support only *256 colour palette*  
+`fg_color` : text color  
+`bg_color` : background color
 ```vim
 {
   'TODO': {
