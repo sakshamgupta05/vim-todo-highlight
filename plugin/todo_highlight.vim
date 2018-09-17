@@ -1,5 +1,5 @@
 " File: todo_highlight.vim
-" Author: Saksham Gupta <sakshamgupta05@gmail.com>
+" Author: Saksham Gupta <https://github.com/sakshamgupta05>
 " Description: a Vim/Neovim plugin to highlight todos and fixmes
 
 " make sure file is loaded only once
@@ -10,19 +10,19 @@ let g:loaded_todo_highlight = 1
 
 " default highlight config
 let s:todo_highlight_config_default = {
-            \ 'TODO': {
-              \ 'gui_fg_color': '#ffffff',
-              \ 'gui_bg_color': '#ffbd2a',
-              \ 'cterm_fg_color': 'white',
-              \ 'cterm_bg_color': '214'
-            \ },
-            \ 'FIXME': {
-              \ 'gui_fg_color': '#ffffff',
-              \ 'gui_bg_color': '#f06292',
-              \ 'cterm_fg_color': 'white',
-              \ 'cterm_bg_color': '204'
-            \ }
-          \ }
+      \   'TODO': {
+      \     'gui_fg_color': '#ffffff',
+      \     'gui_bg_color': '#ffbd2a',
+      \     'cterm_fg_color': 'white',
+      \     'cterm_bg_color': '214'
+      \   },
+      \     'FIXME': {
+      \     'gui_fg_color': '#ffffff',
+      \     'gui_bg_color': '#f06292',
+      \     'cterm_fg_color': 'white',
+      \     'cterm_bg_color': '204'
+      \   }
+      \ }
 
 " creates annotation group and highlight it according to the config
 function! s:CreateAnnotationGroup(annotation, config)

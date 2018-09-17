@@ -66,12 +66,12 @@ let g:todo_highlight_disable_default = ['TODO', 'FIXME']
 To add your own custom annotations and/or customize colors for existing annotations, configure as (if you leave any attribute as blank, the default(`TODO`) configurations will be used)
 ```vim
 let g:todo_highlight_config = {
-        \ 'REVIEW': {},
-        \ 'NOTE': {
-          \ 'gui_fg_color': '#ffffff',
-          \ 'gui_bg_color': '#ffbd2a',
-          \ 'cterm_fg_color': 'white',
-          \ 'cterm_bg_color': '214'
-        \ }
+      \   'REVIEW': {},
+      \   'NOTE': {
+      \     'gui_fg_color': '#ffffff',
+      \     'gui_bg_color': '#ffbd2a',
+      \     'cterm_fg_color': 'white',
+      \     'cterm_bg_color': '214'
+      \   }
       \ }
 ```
