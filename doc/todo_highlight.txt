@@ -18,7 +18,6 @@ for you.
 ==============================================================================
 CONFIGURATION                                 *todo-highlight-configuration*
 
-------------------------------------------------------------------------------
 DEFAULT CONFIGURATION                               *todo-highlight-default*
 
 gui      : HEX colors for terminals that support 24bit true colour
@@ -42,7 +41,6 @@ bg_color : background color
   }
 <
 
-------------------------------------------------------------------------------
 DISABLE DEFAULT ANNOTATIONS               *g:todo_highlight_disable_default*
 
 If you want to disable highlighting for the default annotations, configure
@@ -51,7 +49,6 @@ as
   let g:todo_highlight_disable_default = ['TODO', 'FIXME']
 <
 
-------------------------------------------------------------------------------
 ADD CUSTOM ANNOTATIONS                             *g:todo_highlight_config*
 
 To add your own custom annotations and/or customize colors for existing
@@ -68,4 +65,3 @@ the default(TODO) configurations will be used)
         \   }
         \ }
 <
-==============================================================================
